@@ -1,0 +1,7 @@
+C:\code\mhlabs\MhLabs.NotificationChannel\MhLabs.NotificationChannel\bin\Debug\netcoreapp1.1\MhLabs.NotificationChannel.deps.json
+C:\code\mhlabs\MhLabs.NotificationChannel\MhLabs.NotificationChannel\bin\Debug\netcoreapp1.1\MhLabs.NotificationChannel.dll
+C:\code\mhlabs\MhLabs.NotificationChannel\MhLabs.NotificationChannel\bin\Debug\netcoreapp1.1\MhLabs.NotificationChannel.pdb
+C:\code\mhlabs\MhLabs.NotificationChannel\MhLabs.NotificationChannel\obj\Debug\netcoreapp1.1\MhLabs.NotificationChannel.csprojResolveAssemblyReference.cache
+C:\code\mhlabs\MhLabs.NotificationChannel\MhLabs.NotificationChannel\obj\Debug\netcoreapp1.1\MhLabs.NotificationChannel.AssemblyInfo.cs
+C:\code\mhlabs\MhLabs.NotificationChannel\MhLabs.NotificationChannel\obj\Debug\netcoreapp1.1\MhLabs.NotificationChannel.dll
+C:\code\mhlabs\MhLabs.NotificationChannel\MhLabs.NotificationChannel\obj\Debug\netcoreapp1.1\MhLabs.NotificationChannel.pdb

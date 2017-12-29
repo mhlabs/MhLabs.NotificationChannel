@@ -1,0 +1,196 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.1",
+    "signature": "0dcba4267fb3b9b285a62d953b8b9dbddda001c2"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.1": {
+      "mhlabs.notificationchannel/1.0.0": {
+        "dependencies": {
+          "AWSSDK.SimpleNotificationService": "3.3.0.24",
+          "MhLabs.DataAccessIoC": "1.0.6",
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "runtime": {
+          "MhLabs.NotificationChannel.dll": {}
+        }
+      },
+      "awssdk.core/3.3.19": {
+        "runtime": {
+          "lib/netstandard1.3/AWSSDK.Core.dll": {}
+        }
+      },
+      "awssdk.simplenotificationservice/3.3.0.24": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.19"
+        },
+        "runtime": {
+          "lib/netstandard1.3/AWSSDK.SimpleNotificationService.dll": {}
+        }
+      },
+      "mhlabs.dataaccessioc/1.0.6": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0",
+          "AWSSDK.Core": "3.3.19"
+        },
+        "runtime": {
+          "lib/netcoreapp1.1/MhLabs.DataAccessIoC.dll": {}
+        }
+      },
+      "microsoft.extensions.dependencyinjection.abstractions/1.0.0": {
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "newtonsoft.json/10.0.3": {
+        "dependencies": {
+          "System.ComponentModel.TypeConverter": "4.3.0",
+          "System.Runtime.Serialization.Formatters": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0",
+          "System.Xml.XmlDocument": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Newtonsoft.Json.dll": {}
+        }
+      },
+      "system.collections.nongeneric/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.NonGeneric.dll": {}
+        }
+      },
+      "system.collections.specialized/4.3.0": {
+        "dependencies": {
+          "System.Collections.NonGeneric": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.Specialized.dll": {}
+        }
+      },
+      "system.componentmodel.primitives/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.0/System.ComponentModel.Primitives.dll": {}
+        }
+      },
+      "system.componentmodel.typeconverter/4.3.0": {
+        "dependencies": {
+          "System.Collections.NonGeneric": "4.3.0",
+          "System.Collections.Specialized": "4.3.0",
+          "System.ComponentModel.Primitives": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.5/System.ComponentModel.TypeConverter.dll": {}
+        }
+      },
+      "system.runtime.serialization.formatters/4.3.0": {
+        "dependencies": {
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.4/System.Runtime.Serialization.Formatters.dll": {}
+        }
+      },
+      "system.runtime.serialization.primitives/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      },
+      "system.xml.xmldocument/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "mhlabs.notificationchannel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "awssdk.core/3.3.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zmXaVNKtbQ1RfwHawEkKM7nvkSeWjljwiBKtaUpf2Woni/vmYd5l0gY54dNVN7Z9IsCoxwitGcFfJYOtrE/upg==",
+      "path": "awssdk.core/3.3.19",
+      "hashPath": "awssdk.core.3.3.19.nupkg.sha512"
+    },
+    "awssdk.simplenotificationservice/3.3.0.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qyTsip135LeGKC6IyYVPmWLpTQQ7Xf6lGb/ttamvATnsd7xl65V0PqAcXIwNImTdyI7rx8sQpr1JdU2KkSMFTA==",
+      "path": "awssdk.simplenotificationservice/3.3.0.24",
+      "hashPath": "awssdk.simplenotificationservice.3.3.0.24.nupkg.sha512"
+    },
+    "mhlabs.dataaccessioc/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w7HBK23dix6+gJ+sOGwaQyusuUFQRQhG8y9Q8OjRqmKDaxsZHQXY/zmSccWeAOgFLbemVogvm2zlSrjrY4r2IA==",
+      "path": "mhlabs.dataaccessioc/1.0.6",
+      "hashPath": "mhlabs.dataaccessioc.1.0.6.nupkg.sha512"
+    },
+    "microsoft.extensions.dependencyinjection.abstractions/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zDOYvqQ++qKXBgB+wH62HzeBapqJ9w3UThwirftNxAqFtH/NpbZxldY/H+Kr4Pn7R0+huUCYglZvp/KZH6xjCQ==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/1.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.1.0.0.nupkg.sha512"
+    },
+    "newtonsoft.json/10.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wBM7i7i3U2WX0ecor4zdVGvgrwFUjuigBoHKiL+nH39fCOpCPjBY3RDqJM32edvdyTAVdjzlccHsg41+/+zpSA==",
+      "path": "newtonsoft.json/10.0.3",
+      "hashPath": "newtonsoft.json.10.0.3.nupkg.sha512"
+    },
+    "system.collections.nongeneric/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+jowkzjwpqaTzOo6EeBzLQNl8OOSo8KGAi/51D22ARD3wbiKCOw0ZVQByuyR5O+veG7GXU7yaZtEeUcYGBFZnA==",
+      "path": "system.collections.nongeneric/4.3.0",
+      "hashPath": "system.collections.nongeneric.4.3.0.nupkg.sha512"
+    },
+    "system.collections.specialized/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kCfE6+cY031jSv1h41OWStVV18KFdaCVCqrjLGs0W5Zb1xrR3niAhaXLRWyPUe+qXNz2KqdmaZW+YmQbB8n9zQ==",
+      "path": "system.collections.specialized/4.3.0",
+      "hashPath": "system.collections.specialized.4.3.0.nupkg.sha512"
+    },
+    "system.componentmodel.primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r5MqgVZHAuhJUc9ZUuEpriQ8pW7uzeIw3yX/Nj5lgtvgjm/FCP+xI+AQ6H8KBqzWKYCUPQ0AQrwOd0z0HBX0EA==",
+      "path": "system.componentmodel.primitives/4.3.0",
+      "hashPath": "system.componentmodel.primitives.4.3.0.nupkg.sha512"
+    },
+    "system.componentmodel.typeconverter/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-55IoRyuGMMTM/uyBpAOUUD8Cfm1lw+ZONRxnMhXwCuXg4Wa41Nmajq03+eSSUF92fmHKsSK0TIlL8wCmR6C+fA==",
+      "path": "system.componentmodel.typeconverter/4.3.0",
+      "hashPath": "system.componentmodel.typeconverter.4.3.0.nupkg.sha512"
+    },
+    "system.runtime.serialization.formatters/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KT591AkTNFOTbhZlaeMVvfax3RqhH1EJlcwF50Wm7sfnBLuHiOeZRRKrr1ns3NESkM20KPZ5Ol/ueMq5vg4QoQ==",
+      "path": "system.runtime.serialization.formatters/4.3.0",
+      "hashPath": "system.runtime.serialization.formatters.4.3.0.nupkg.sha512"
+    },
+    "system.runtime.serialization.primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2ZiewqnXmtI8q80USB7RPeOc9WMJl7ukguhnVe1YTsNTO0Yq8wHEIa3vaaXNghyaXISmj9pWywNrrpcDPMZgBw==",
+      "path": "system.runtime.serialization.primitives/4.3.0",
+      "hashPath": "system.runtime.serialization.primitives.4.3.0.nupkg.sha512"
+    },
+    "system.xml.xmldocument/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
+      "path": "system.xml.xmldocument/4.3.0",
+      "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
+    }
+  }
+}
