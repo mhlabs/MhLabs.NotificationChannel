@@ -24,7 +24,7 @@ The `MhLabs.NotificationChannel` package provides helper methods and dependency 
 }
 [...]
 ```
-...and in your `AWS::Serverless::Function`-resource
+...and in your `AWS::Serverless::Function`-resource where you want to _publish_ messages
 
 ```
 "YourLambdaFunction": {
@@ -39,6 +39,18 @@ The `MhLabs.NotificationChannel` package provides helper methods and dependency 
     }
   }
 }
+```
+...create a consumer (a normal AWS:Serverless:Function with SNS as event source) and a filter policy:
+```
+"FilterPolicy": {
+  "Type": "Custom::SnsFilter",
+     "Properties": {
+     "ServiceToken":{"Fn::ImportValue":"env-custom-resources"},
+       "TopicArn": {"Ref":"Topic"}, (if topic exists in same stack. Otherwise build Arn to topic using Fn::Sub or Fn::Join)
+       "Endpoint": {"Fn::GetAtt":["SnsSubscriberLambda", "Arn"]},
+       "FilterPolicy": "{\"eventType\": [\"create\", \"update\"]}"
+      }
+    }
 ```
 
 Add package: `Install-Package MhLabs.NotificationChannel`
